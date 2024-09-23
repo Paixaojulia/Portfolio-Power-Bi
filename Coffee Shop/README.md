@@ -2,7 +2,7 @@
 
 ## Estrutura da Base de dados 
 
-A estrutura da base de dados pode ser conferida através desse [link] (https://www.kaggle.com/datasets/ihelon/coffee-sales/data)
+A estrutura da base de dados pode ser conferida através desse [link](https://www.kaggle.com/datasets/ihelon/coffee-sales/data)
 
 O arquivo em excel contém as seguintes colunas: 
 * Data
