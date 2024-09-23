@@ -6,6 +6,6 @@ Dashboards elaborados com foco em estudos na ferramenta Power BI, visando constr
 Se você tiver alguma sugestão ou feedback, sinta-se a vontade para entrar em contato comigo! 
 Obrigada por visitar meu Portfolio de Análise de Dados!
 
-[Linkedin](https://www.linkedin.com/in/juliapaixão/)
+[Linkedin - Julia Paixão](https://www.linkedin.com/in/juliapaixão/)
 
 Email juliagabrielepaixao@gmail.com
