@@ -13,3 +13,6 @@ O arquivo em excel contém as seguintes colunas:
 * Variação do produto
 Apenas as colunas **Quantidade de Vendas**, **Ticket Médio** e **Total de Vendas** foram geradas a partir das demais.
 Quantidade de dados: 1.208
+
+
+## Observações 
