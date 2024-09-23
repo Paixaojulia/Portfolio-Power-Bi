@@ -5,4 +5,4 @@ Dashboards elaborados com foco em estudos na ferramenta Power BI, visando constr
 ## Contatos:
 [Linkedin](https://www.linkedin.com/in/juliapaixão/)
 
-[Email](juliagabrielepaixao@gmail.com)
+Email juliagabrielepaixao@gmail.com
