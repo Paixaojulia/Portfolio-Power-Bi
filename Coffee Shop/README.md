@@ -38,6 +38,8 @@ Quantidade de dados: 1.208
 
 **Recorrência de clientes**: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
 
+![](https://i.postimg.cc/s2BdCXzd/Screenshot-4.jpg)
+
 **Análise de Receita e Sazonalidade**: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**.
 
 **Receita por Dia da semana e Hora**: 
