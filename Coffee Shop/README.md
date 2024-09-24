@@ -1,5 +1,7 @@
 # Dashboard Loja de Café
 
+! [Dashboard] (https://imgur.com/8Lq4ITk)
+
 ## Overview do projeto
 
 Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um Dashboard que contém analises de venda de uma cafeteria. 
