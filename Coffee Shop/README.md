@@ -30,13 +30,13 @@ Quantidade de dados: 1.208
 
 ## Insights e Acionáveis 
 
-Identificação dos Best-sellers: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **9,5k, 9,3k e 7,8k**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. ![Gráfico de barras empilhadas](https://imgur.com/CxDanoh)
+**Identificação dos Best-sellers**: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **9,5k, 9,3k e 7,8k**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. ![Gráfico de barras empilhadas](https://imgur.com/CxDanoh)
 
-Recorrência de clientes: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
+**Recorrência de clientes**: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
 
-Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**.
+**Análise de Receita e Sazonalidade**: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**.
 
-Receita por Dia da semana e Hora: 
+**Receita por Dia da semana e Hora**: 
 * Os horários de pico de venda são concentrados entre 8h e 10h, com maior receita gerada às 8h (R$ 4,5 mil) e 9h (R$ 5,4 mil). Esses horários coincidem com o café da manhã, mostrando que a loja é mais movimentada nesse período. 
 * Aos sábados e domingos as vendas caem em relação aos dias úteis, sugerindo que o público alvo da cafeteria seja composto por estudantes ou trabalhadores, que frequentariam aos dias de semana. 
 
