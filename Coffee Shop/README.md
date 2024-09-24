@@ -11,7 +11,9 @@ O arquivo em excel contém as seguintes colunas:
 * Numeração do cartão
 * Valor do produto
 * Variação do produto
+  
 Apenas as colunas **Quantidade de Vendas**, **Ticket Médio** e **Total de Vendas** foram geradas a partir das demais.
+
 Quantidade de dados: 1.208
 
 ## Dataset Overview 
@@ -30,9 +32,15 @@ Recorrência de clientes: Acompanhar a frequência de compra por cliente ao long
 
 Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico.
 
-## Perguntas chaves 
+## Questões chaves que foram exploradas:
 
+Total da receita: Total de receita gerada no período observado.
+Quantidade de Vendas: Valor total de pedidos realizados.
+Ticket médio: Ticket médio das vendas. 
+Produto com maior rotatividade: Produto que obteve maior número de vendas no cardápio.
+Quantidade de transação por meio de pagamento: Total de transações por cartão e dinheiro. 
+Horário de pico para vendas: Total de vendas por horário do dia.
+Quantidade de transação por cliente: Mostra a frequência de um cliente com total de transações, meio de pagamento, pedido e horário.
 
-Quantidade de Vendas: 
+ 
 
-Total de Receita por mês: Conseguimos analisar que o mês de maior receita foi maio.  
