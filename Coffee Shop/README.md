@@ -18,9 +18,9 @@ Quantidade de dados: 1.208
 
 ## Dataset Overview 
 
-A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentua a satisfação do cliente. Segue o breve resumo do que podemos extrair da base de dados: 
+A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuam a satisfação do cliente. Segue o breve resumo do que podemos extrair da base de dados: 
 
-Data e hora: Possuimos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
+Data e hora: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
 Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
 
 
