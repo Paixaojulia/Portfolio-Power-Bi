@@ -1,6 +1,6 @@
 # Dashboard Loja de Café
 
-![Dashboard](https://imgur.com/8Lq4ITk)
+![Dashboard](https://i.postimg.cc/fbYZpyZ2/Screenshot-1.jpg)
 
 ## Overview do projeto
 
