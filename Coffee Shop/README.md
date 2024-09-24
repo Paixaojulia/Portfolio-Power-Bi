@@ -32,11 +32,11 @@ Quantidade de dados: 1.208
 
 ## Insights e Acionáveis 
 
-**Identificação dos Best-sellers**: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **9,5k, 9,3k e 7,8k**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. 
+**Identificação dos Best-sellers**: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **R$ 9,5 mil, R$ 9,3 mil e R$ 7,8 mil**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. Com base na identificação dos best-sellers, a loja pode focar em promover os produtos **Latte, Americano With Milk e Cappuccino** com campanhas direcionadas, ofertas especiais ou combos, além de garantir estoque adequado desses itens para manter a alta demanda.
 
 ![](https://i.postimg.cc/Cxm61V7h/Screenshot-3.jpg)
 
-**Recorrência de clientes**: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. Podemos observar de acordo com o gráfico que o cliente com o cartão final 012 já realizou 88 compras na Cafeteria. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
+**Recorrência de clientes**: Para verificação da frequência dos clientes utilizei o final do cartão do cliente, pois era o único dado disponível para o cálculo dessa métrica. Podemos observar de acordo com o gráfico que o cliente com o cartão final 012 já realizou 88 compras na Cafeteria. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. Com base na análise de recorrência de clientes, a loja pode criar programas de fidelidade ou recompensas personalizadas para clientes frequentes, como o cliente com o cartão final 012, incentivando ainda mais sua lealdade e aumentando o ticket médio.
 
 ![](https://i.postimg.cc/s2BdCXzd/Screenshot-4.jpg)
 
@@ -46,7 +46,8 @@ Quantidade de dados: 1.208
 
 **Receita por Dia da semana e Hora**: 
 * Os horários de pico de venda são concentrados entre 8h e 10h, com maior receita gerada às 8h (R$ 4,5 mil) e 9h (R$ 5,4 mil). Esses horários coincidem com o café da manhã, mostrando que a loja é mais movimentada nesse período. 
-* Aos sábados e domingos as vendas caem em relação aos dias úteis, sugerindo que o público alvo da cafeteria seja composto por estudantes ou trabalhadores, que frequentariam aos dias de semana. O gráfico utilizado para realizar a análise foi o **Matriz**. 
+* Aos sábados e domingos as vendas caem em relação aos dias úteis, sugerindo que o público alvo da cafeteria seja composto por estudantes ou trabalhadores, que frequentariam aos dias de semana. O gráfico utilizado para realizar a análise foi o **Matriz**.
+*  Com base na análise de receita por dia da semana e hora, a loja pode intensificar promoções e combos de café da manhã entre 8h e 10h para aproveitar os horários de pico. Nos finais de semana, estratégias como ofertas especiais ou eventos podem ser implementadas para atrair mais clientes e equilibrar as vendas com os dias úteis.
 
 ![](https://i.postimg.cc/ht8jH2SR/Screenshot-5.jpg)
 
