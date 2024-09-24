@@ -6,8 +6,8 @@ Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um 
 
 A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuar a satisfação do cliente. Segue um breve resumo do que podemos extrair da base de dados: 
 
-. Data e hora: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
-. Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
+1. Data e hora: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
+2. Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
 
 
 
@@ -28,7 +28,7 @@ As medidas **Quantidade de Vendas**, **Ticket Médio** e **Total de Vendas** for
 Quantidade de dados: 1.208
 
 
-## Observações
+## Insights e Acionáveis 
 
 Identificação dos Best-sellers: Com a análise correta dos dados, é possível identificar quais produtos são os mais vendidos. Com essa informação, a empresa pode aplicar estratégias de marketing mais direcionadas, como promoções e campanhas específicas, para impulsionar ainda mais as vendas desses itens.
 
@@ -39,7 +39,7 @@ Recorrência de clientes: Acompanhar a frequência de compra por cliente ao long
 Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico.
 
 
-## Questões chaves que foram exploradas:
+## KPIs que foram exploradas:
 
 Total da receita: Total de receita gerada no período observado foi de 39.656,78.
 
