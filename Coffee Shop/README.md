@@ -51,12 +51,9 @@ Receita por Dia da semana e Hora:
 
 * **Produto com maior rotatividade**: Produto que foi campeão de vendas no cardápio foi o Latte.
 
-* **Receita por produto**: Com a análise correta dos dados, é possível identificar quais produtos são os mais vendidos. Com essa informação, a empresa pode aplicar estratégias de marketing mais direcionadas, como promoções e campanhas específicas, para impulsionar ainda mais as vendas desses itens. 
-
+* **Receita por produto**: Com a análise correta dos dados, é possível identificar quais produtos são os mais vendidos. Com essa informação, a empresa pode aplicar estratégias de marketing direcionadas, como promoções e campanhas específicas, para impulsionar ainda mais as vendas desses itens. 
 
 * **Quantidade de transação por meio de pagamento**: A grande parte das transações foram realizadas por meio de cartão (92,63%) e a outra parte com apenas 7,37%. 
-
-* **Horário de pico para vendas**: Total de vendas por horário do dia.
 
 * **Quantidade de transação por cliente**: Demonstra a frequência de um cliente com total de transações, meio de pagamento, pedido e horário.
 
