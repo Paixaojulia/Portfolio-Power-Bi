@@ -37,19 +37,23 @@ Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo d
 
 ## Questões chaves que foram exploradas:
 
-Total da receita: Total de receita gerada no período observado.
+Total da receita: Total de receita gerada no período observado foi de 39.656,78.
 
-Quantidade de Vendas: Valor total de pedidos realizados.
+Quantidade de Vendas: 1.208 Total de pedidos realizados.
 
-Ticket médio: Ticket médio das vendas. 
+Ticket médio: Ticket médio das vendas é de 32,83. 
 
-Produto com maior rotatividade: Produto que obteve maior número de vendas no cardápio.
+Produto com maior rotatividade: Produto que foi campeão de vendas no cardápio foi o Latte.
 
-Quantidade de transação por meio de pagamento: Total de transações por cartão e dinheiro. 
+Receita por produto: O Latte foi o produto mais vendido com o valor de 9,5 mil. Seguido pelo Americano com Milk no valor de 9,3 mil e o Capuccino mesmo com uma receita de apenas 7,8 mil ficou em terceiro lugar. 
+
+Quantidade de transação por meio de pagamento: A grande parte das transações foram realizadas por meio de cartão (92,63%) e a outra parte com apenas 7,37%. 
 
 Horário de pico para vendas: Total de vendas por horário do dia.
 
-Quantidade de transação por cliente: Mostra a frequência de um cliente com total de transações, meio de pagamento, pedido e horário.
+Quantidade de transação por cliente: Demonstra a frequência de um cliente com total de transações, meio de pagamento, pedido e horário.
+
+Clientes não recorrentes: O dashboard mostra uma lista de 89 clientes não recorrentes, transmitindo um alto número de clientes não fidelizados, que podem assim chamar a atenção de estratégias de fidelização. 
 
  
 
