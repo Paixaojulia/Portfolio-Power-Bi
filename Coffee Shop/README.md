@@ -40,9 +40,9 @@ Quantidade de dados: 1.208
 
 ![](https://i.postimg.cc/s2BdCXzd/Screenshot-4.jpg)
 
-**Análise de Receita e Sazonalidade**: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**. 
+**Análise de Receita ao Longo do Tempo**: Os meses que mais venderam foram, em ordem decrescente, Maio, Junho e Março com valores de, respectivamente R$ 9,1 mil, R$7,1 mil e R$ 6,9 mil. Com base na análise de receita, a loja pode intensificar campanhas promocionais nos meses de maior venda, como Maio, Junho e Março, replicando as estratégias que foram bem-sucedidas nesses períodos. Além disso, é importante planejar o estoque e a equipe para atender à maior demanda nesses meses e, paralelamente, criar ações específicas para aumentar as vendas nos períodos de menor desempenho.
 
-![](https://i.postimg.cc/ht8jH2SR/Screenshot-5.jpg)
+![](https://i.postimg.cc/rFD85WQW/Screenshot-6.jpg)
 
 **Receita por Dia da semana e Hora**: 
 * Os horários de pico de venda são concentrados entre 8h e 10h, com maior receita gerada às 8h (R$ 4,5 mil) e 9h (R$ 5,4 mil). Esses horários coincidem com o café da manhã, mostrando que a loja é mais movimentada nesse período. 
