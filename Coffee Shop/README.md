@@ -1,6 +1,6 @@
 # Dashboard Loja de Café
 
-![Dashboard](https://i.postimg.cc/fbYZpyZ2/Screenshot-1.jpg)
+![](https://i.postimg.cc/fbYZpyZ2/Screenshot-1.jpg)
 
 ## Overview do projeto
 
@@ -32,7 +32,7 @@ Quantidade de dados: 1.208
 
 ## Insights e Acionáveis 
 
-**Identificação dos Best-sellers**: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **9,5k, 9,3k e 7,8k**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. ![Gráfico de barras empilhadas](https://imgur.com/CxDanoh)
+**Identificação dos Best-sellers**: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **9,5k, 9,3k e 7,8k**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**. ![Gráfico de barras empilhadas](https://i.postimg.cc/Cxm61V7h/Screenshot-3.jpg)
 
 **Recorrência de clientes**: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
 
