@@ -1,5 +1,16 @@
 # Dashboard Loja de Café
 
+## Overview do projeto
+
+Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um Dashboard que contém analises de venda de uma cafeteria. 
+
+A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuar a satisfação do cliente. Segue um breve resumo do que podemos extrair da base de dados: 
+
+. Data e hora: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
+. Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
+
+
+
 ## Estrutura da Base de dados 
 
 A estrutura da base de dados pode ser conferida através desse [link](https://www.kaggle.com/datasets/ihelon/coffee-sales/data)
@@ -12,16 +23,9 @@ O arquivo em excel contém as seguintes colunas:
 * Valor do produto
 * Variação do produto
   
-Apenas as colunas **Quantidade de Vendas**, **Ticket Médio** e **Total de Vendas** foram geradas a partir das demais.
+As medidas **Quantidade de Vendas**, **Ticket Médio** e **Total de Vendas** foram geradas a partir das demais colunas. 
 
 Quantidade de dados: 1.208
-
-## Dataset Overview 
-
-A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuam a satisfação do cliente. Segue o breve resumo do que podemos extrair da base de dados: 
-
-Data e hora: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
-Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
 
 
 ## Observações
