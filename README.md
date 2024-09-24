@@ -1,6 +1,6 @@
 # Portfolio-Power-Bi📊
 Dashboards elaborados com foco em estudos na ferramenta Power BI, visando construir um portfólio com cenários reais do dia a dia:
-- [Dashboard Coffee Shop](coffee_shop2.pbix)
+- [Dashboard Coffee Shop](https://github.com/Paixaojulia/Portfolio-Power-Bi/tree/main/Coffee%20Shop)
 
 ## Informação de Contatos:
 Se você tiver alguma sugestão ou feedback, sinta-se a vontade para entrar em contato comigo! 
