@@ -30,13 +30,15 @@ Quantidade de dados: 1.208
 
 ## Insights e Acionáveis 
 
-Identificação dos Best-sellers: Com a análise correta dos dados, é possível identificar quais produtos são os mais vendidos. Com essa informação, a empresa pode aplicar estratégias de marketing mais direcionadas, como promoções e campanhas específicas, para impulsionar ainda mais as vendas desses itens.
+Identificação dos Best-sellers: De acordo com a análise dos dados os produtos que mais venderam foram: **Latte, Americano With Milk, Cappuccino**. Seus valores em vendas foram respectivamente **9,5k, 9,3k e 7,8k**. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
 
-Otimização de Menu: Utilizar os dados para detectar no cardápio o que não está sendo vendido, assim possibilitando rotatividade e ajustes no cardápio.
+Recorrência de clientes: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
 
-Recorrência de clientes: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido.
+Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**.
 
-Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico.
+Receita por Dia da semana e Hora: 
+* Os horários de pico de venda são concentrados entre 8h e 10h, com maior receita gerada às 8h (R$ 4,5 mil) e 9h (R$ 5,4 mil). Esses horários coincidem com o café da manhã, mostrando que a loja é mais movimentada nesse período. 
+* Aos sábados e domingos as vendas caem em relação aos dias úteis, sugerindo que o público alvo da cafeteria seja composto por estudantes ou trabalhadores, que frequentariam aos dias de semana. 
 
 
 ## KPIs que foram exploradas:
@@ -49,7 +51,8 @@ Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo d
 
 * **Produto com maior rotatividade**: Produto que foi campeão de vendas no cardápio foi o Latte.
 
-* **Receita por produto**: O Latte foi o produto mais vendido com o valor de 9,5 mil. Seguido pelo Americano com Milk no valor de 9,3 mil e o Capuccino mesmo com uma receita de apenas 7,8 mil ficou em terceiro lugar. 
+* **Receita por produto**: Com a análise correta dos dados, é possível identificar quais produtos são os mais vendidos. Com essa informação, a empresa pode aplicar estratégias de marketing mais direcionadas, como promoções e campanhas específicas, para impulsionar ainda mais as vendas desses itens. 
+
 
 * **Quantidade de transação por meio de pagamento**: A grande parte das transações foram realizadas por meio de cartão (92,63%) e a outra parte com apenas 7,37%. 
 
