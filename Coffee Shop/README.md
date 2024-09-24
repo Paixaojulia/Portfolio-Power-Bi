@@ -36,16 +36,19 @@ Quantidade de dados: 1.208
 
 ![](https://i.postimg.cc/Cxm61V7h/Screenshot-3.jpg)
 
-**Recorrência de clientes**: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
+**Recorrência de clientes**: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido. Podemos observar de acordo com o gráfico que o cliente com o cartão final 012 já realizou 88 compras na Cafeteria. O gráfico utilizado para realizar a análise foi o **Gráfico de barras empilhadas**.
 
 ![](https://i.postimg.cc/s2BdCXzd/Screenshot-4.jpg)
 
-**Análise de Receita e Sazonalidade**: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**.
+**Análise de Receita e Sazonalidade**: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico. O gráfico utilizado para realizar a análise foi o **Matriz**. 
+
+![](https://i.postimg.cc/ht8jH2SR/Screenshot-5.jpg)
 
 **Receita por Dia da semana e Hora**: 
 * Os horários de pico de venda são concentrados entre 8h e 10h, com maior receita gerada às 8h (R$ 4,5 mil) e 9h (R$ 5,4 mil). Esses horários coincidem com o café da manhã, mostrando que a loja é mais movimentada nesse período. 
-* Aos sábados e domingos as vendas caem em relação aos dias úteis, sugerindo que o público alvo da cafeteria seja composto por estudantes ou trabalhadores, que frequentariam aos dias de semana. 
+* Aos sábados e domingos as vendas caem em relação aos dias úteis, sugerindo que o público alvo da cafeteria seja composto por estudantes ou trabalhadores, que frequentariam aos dias de semana. O gráfico utilizado para realizar a análise foi o **Matriz**. 
 
+![](https://i.postimg.cc/ht8jH2SR/Screenshot-5.jpg)
 
 ## KPIs que foram exploradas:
 
