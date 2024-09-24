@@ -2,6 +2,8 @@
 
 ![](https://i.postimg.cc/fbYZpyZ2/Screenshot-1.jpg)
 
+[Link para o meu Dashboard](https://app.powerbi.com/view?r=eyJrIjoiYWQ2MTdjYTMtMDEzYi00ZGJlLTg4YjgtYjIxOGY4ZWViOGI4IiwidCI6ImQ2YTdlNTA2LTI2ZmEtNDMwNi1iZmZlLTlkODc5MDBmNDIwZCJ9)
+ 
 ## Overview do projeto
 
 Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um Dashboard que contém análises de vendas de uma cafeteria. 
