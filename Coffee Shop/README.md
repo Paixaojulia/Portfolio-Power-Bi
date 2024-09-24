@@ -8,8 +8,8 @@ Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um 
 
 A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuar a satisfação do cliente. Segue um breve resumo do que podemos extrair da base de dados: 
 
-1. Data e hora: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
-2. Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
+1. **Data e hora**: Possuímos o registro de data e a hora de cada pedido, o que nos permite analisar o comportamento do cliente e identificar possíveis horários de pico.
+2. **Detalhes do pagamento**: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
 
 
 
