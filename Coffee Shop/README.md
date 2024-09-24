@@ -21,18 +21,16 @@ Data e hora: Possuimos o registro de data e a hora de cada pedido, o que nos per
 Detalhes do pagamento: Detemos de cada detalhe do meio de pagamento, assim podemos identificar as preferências dos clientes tanto no tipo de produto e frequência. 
 
 
-## Observações 
-Descobrir os Best-sellers do comércio: Utilizando os dados da maneira certa conseguimos buscar e assim descobrir o best-seller da marca entre os consumidores. Identificando o produto que melhor vende na loja podemos utilizar de estratégias de marketing para realizar promoções e promover da maneira certa. 
+## Observações
+Identificação dos Best-sellers: Com a análise correta dos dados, é possível identificar quais produtos são os mais vendidos. Com essa informação, a empresa pode aplicar estratégias de marketing mais direcionadas, como promoções e campanhas específicas, para impulsionar ainda mais as vendas desses itens.
 
-Otimização de Menu: Utilizar os dados para encorpar o cardápio identificando o que não está sendo vendido e gerar rotatividade.
+Otimização de Menu: Utilizar os dados para detectar no cardápio o que não está sendo vendido, assim possibilitando rotatividade e ajustes no cardápio.
 
-Recorrência de clientes: Podemos observar através da quantidade de transação por cliente a sua frequência em cada mês, hora e pedido.
+Recorrência de clientes: Acompanhar a frequência de compra por cliente ao longo do tempo por transação a sua regularidade em cada mês, hora e pedido.
 
-Ganho e sazonalidade: Calcular o total de receita gerada ao longo do ano para ter uma imagem da performance financeira da empresa. E adicionalmente investigar caso exista algum padrão sazonal nas vendas para altos e baixos períodos.
+Análise de Receita e Sazonalidade: Avaliar o total de receita gerada ao longo do ano oferece uma visão clara do desempenho financeiro. Além disso, é possível identificar padrões sazonais, entendendo os períodos de maior e menor volume de vendas, para otimizar o planejamento estratégico.
 
-
-
-
+## Perguntas chaves 
 
 
 Quantidade de Vendas: 
