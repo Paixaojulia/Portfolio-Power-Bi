@@ -4,7 +4,7 @@
 
 ## Overview do projeto
 
-Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um Dashboard que contém analises de venda de uma cafeteria. 
+Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um Dashboard que contém análises de vendas de uma cafeteria. 
 
 A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuar a satisfação do cliente. Segue um breve resumo do que podemos extrair da base de dados: 
 
