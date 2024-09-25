@@ -20,3 +20,5 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 * Para iniciarmos a importação do Banco de Dados é necessário criar clicar com o botão direito na pasta **Banco de Dados**, adicionar o nome e selecionar "Ok".
   
   ![](https://i.postimg.cc/L8K4VM0M/Bike-data.jpg)
+* Ao clicar com o botão direito no nosso Banco de dados, devemos selecionar "Tarefas" e "Importar Arquivo Simples". Na aba "Introdução" selecionar "Próxima" e assim procurar o caminho do arquivo desejado. 
+  ![](https://i.postimg.cc/T31KsKym/Import-Arq-Simples.jpg)
