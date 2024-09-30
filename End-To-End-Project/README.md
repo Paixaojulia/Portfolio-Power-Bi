@@ -31,25 +31,6 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 4.  A junção é feita baseada na coluna ano (*Yr*) que significa que está associando os custos de produção ao ano específico.  
 
 
-* Execução 
-with cte as (
- select * from bike_share_yr_0
- union all
- select * from bike_share_yr_1)
-
-
- select
- dteday,
- season,
- a.yr,
- weekday,
- hr,
- rider_type,
- riders,
- price,
- COGS,
- riders*price as revenue,
- riders*price -COGS as profit
- from cte a
- left join cost_table b 
- on a.yr = b.yr
+* Execução
+  
+  ![](https://i.postimg.cc/NjC97bx1/Query.jpg)
