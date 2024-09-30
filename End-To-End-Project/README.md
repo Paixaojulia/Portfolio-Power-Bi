@@ -27,7 +27,8 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 
 ### Explicação
 
-![](https://i.postimg.cc/GhtH3VYv/With-cte.jpg)
+
+ ![](https://i.postimg.cc/GhtH3VYv/With-cte.jpg)
 
 
 
