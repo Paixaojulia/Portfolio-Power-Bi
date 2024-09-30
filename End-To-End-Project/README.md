@@ -25,7 +25,7 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 
 ## Explicando e executando a Query 
 
-*Explicação
+* Explicação
 1.  Para iniciarmos essa consulta foi necessária a utilizção de CTE (Common Table Expression) para união de duas tabelas (*bike_share_yr_0* e *bike_share_yr_1*) juntamente com o comando Union All que combina as duas tabelas sem eliminar nenhum dado duplicado.
 2.  Na consulta principal foram selecionadas as colunas essenciais e realizados dois cálculos, que foram: O cálculo da receita gerado pelo número de ciclistas multiplicados pelo preço cobrado na viagem e o cálculo para retornar a diferença entre a receita total gerada pelos ciclistas e o custo de operação (COGS - Cost of Goods).
 3.  Após tudo isso é o momento de realizar o LEFT JOIN que vai retornar todos os registros da tabela à esquerda (*CTE a*) para os correspondentes a tabela da direita (*cost_table b*). Se não houver correspondência os valores vão aparecer como NULL.
