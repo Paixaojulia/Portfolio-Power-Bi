@@ -25,14 +25,20 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 
 ## Explicando e executando a Query 
 
-* Explicação
-1.  Para iniciarmos essa consulta foi necessária a utilizção de CTE (Common Table Expression) para união de duas tabelas (*bike_share_yr_0* e *bike_share_yr_1*) juntamente com o comando Union All que combina as duas tabelas sem eliminar nenhum dado duplicado.
-2.  Na consulta principal foram selecionadas as colunas essenciais e realizados dois cálculos, que foram: O cálculo da receita gerado pelo número de ciclistas multiplicados pelo preço cobrado na viagem e o cálculo para retornar a diferença entre a receita total gerada pelos ciclistas e o custo de operação (COGS - Cost of Goods).
-3.  Após tudo isso é o momento de realizar o LEFT JOIN que vai retornar todos os registros da tabela à esquerda (*CTE a*) para os correspondentes a tabela da direita (*cost_table b*). Se não houver correspondência os valores vão aparecer como NULL.
-4.  A junção é feita baseada na coluna ano (*Yr*) que significa que está associando os custos de produção ao ano específico.  
+### Explicação
+
+
+![](https://i.postimg.cc/GhtH3VYv/With-cte.jpg)
+
+
 
 
 * Execução
 
   
   ![](https://i.postimg.cc/NjC97bx1/Query.jpg)
+
+
+  ## Conexão ao Power Bi
+
+  Para realizarmos a conexão ao Power Bi é bem simples. Basta entrar na aba "Página Inicial" e em seguida entrar em "Obter Dados" e após SQL Server. 
