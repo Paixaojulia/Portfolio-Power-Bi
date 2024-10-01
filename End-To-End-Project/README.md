@@ -41,4 +41,9 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 
   ## Conexão ao Power Bi
 
-  Para realizarmos a conexão ao Power Bi é bem simples. Basta entrar na aba "Página Inicial" e em seguida entrar em "Obter Dados" e após SQL Server. 
+  1- Para realizarmos a conexão ao Power Bi é bem simples. Basta entrar na aba "Página Inicial" e em seguida entrar em "Obter Dados" e após SQL Server. 
+  2- No SQL Server iremos clicar com o botão direito no nome do nosso banco de dados e selecionar "Conectar", copiar o "Nome do Servidor" e inserir na aba "Servidor" dentro no Power Bi. 
+  3- Manter o modo "Import" no Modo de conectividade de Dados, abrir a aba "Opções Avançadas" logo abaixo e inserir a "Instrução SQL" que será a nossa consulta que acabamos de criar. Continuaremos com o box de "Adicionar colunas de relação" marcado e seguir com o Ok.
+  4- Na aba Banco de dados SQL Server que vai abrir vamos manter as configurações já pré definidas e selecionar "Conectar", marcar "Ok" e após "Carregar". 
+
+  ## Iniciando o Dashboard
