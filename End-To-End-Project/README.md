@@ -53,7 +53,7 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
   
 Para realizar um projeto completo, um método de organização eficiente é essencial. A primeira etapa é o levantamento de requisitos, seguindo um processo bem definido para cada fase do projeto. Escolhi o **Kanban** como metodologia ágil devido à sua visualização clara através de quadros, que permite organizar as tarefas de forma intuitiva. O Kanban também oferece um fluxo contínuo de trabalho, facilitando a priorização e a execução das atividades, garantindo o acompanhamento e a conclusão das entregas de maneira estruturada e progressiva.
 
-  ![](https://ibb.co/fnkfv5w)
+  ![](https://i.postimg.cc/ZKNfDZrh/Kanban.jpg)
 
   
   ## Iniciando o Dashboard
