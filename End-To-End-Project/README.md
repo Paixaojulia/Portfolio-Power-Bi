@@ -48,6 +48,7 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
   3- Manter o modo "Import" no Modo de conectividade de Dados, abrir a aba "Opções Avançadas" logo abaixo e inserir a "Instrução SQL" que será a nossa consulta que acabamos de criar. Continuaremos com o box de "Adicionar colunas de relação" marcado e seguir com o Ok.
   
   4- Na aba Banco de dados SQL Server que vai abrir vamos manter as configurações já pré definidas e selecionar "Conectar", marcar "Ok" e após "Carregar". 
+  ![](https://i.postimg.cc/QCRBfmCk/Conect-Server.jpg)
 
   ## Organização com o método Kanban
   
