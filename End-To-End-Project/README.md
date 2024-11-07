@@ -69,14 +69,14 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 A Base de Dados que geremos contém as seguintes colunas:
 
    * dteday
-	* season
-	* yr
-	* weekday
-	* hr
-	* rider_type
-	* riders
-	* price
-	* COGS
+   * season
+   * yr
+   * weekday
+   * hr
+   * rider_type
+   * riders
+   * price
+   * COGS
    * Revenue
      
 As medidas Custo Total, Lucro Total, Margem de Lucro, Média Receita, Receita Total, Total de Aluguéis e Total de Clientes foram geradas a partir das demais colunas.
