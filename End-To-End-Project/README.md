@@ -1,4 +1,4 @@
-## Projeto Bike
+# Projeto Bike
 ### Overview do projeto
 
 
@@ -91,4 +91,15 @@ Para realizar um projeto completo, um método de organização eficiente é esse
   ![](https://i.postimg.cc/ZKNfDZrh/Kanban.jpg)
 
   
-  ## Iniciando o Dashboard
+  # Iniciando o Dashboard
+
+  ##KPIs que foram exploradas:
+  
+ * **Receita**: O total de receita gerada no período de 2 anos foi 15,19M.
+ * **Lucro**: O lucro da empresa é de 10,45M.
+ * **Custo**: O custo de serviço da empresa é o total de 4,74M.
+ * **Total de Clientes**: A quantidade de clientes distintos é de 776.
+ * **Aluguéis**: O número de aluguéis de bicicleta foi de 3M. 
+ * **Margem de Lucro**: A margem de lucro ficou em 68,80%. 
+  
+  
