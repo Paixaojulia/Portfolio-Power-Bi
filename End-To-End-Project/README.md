@@ -1,4 +1,12 @@
 ## Projeto Bike
+### Overview do projeto
+
+
+Esse projeto foi realizado Utilizando a plataforma SQL Server Management Studio e o Power Bi, realizando o Dashboard desde o início, gerando sua base de dados, importando e montando o dashboard. 
+O projeto gira em torno dos dados adquiridos de 2 anos de uma loja de bicicletas. 
+
+
+
 
 ![](https://i.postimg.cc/90wRy3hz/Bike-dash.jpg)
 
