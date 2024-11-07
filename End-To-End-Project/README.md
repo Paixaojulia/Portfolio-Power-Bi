@@ -93,7 +93,7 @@ Para realizar um projeto completo, um método de organização eficiente é esse
   
   # Iniciando o Dashboard
 
-  ##KPIs que foram exploradas:
+  ## KPIs que foram exploradas:
   
  * **Receita**: O total de receita gerada no período de 2 anos foi 15,19M.
  * **Lucro**: O lucro da empresa é de 10,45M.
