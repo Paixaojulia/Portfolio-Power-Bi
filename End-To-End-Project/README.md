@@ -79,7 +79,7 @@ A Base de Dados que geremos contém as seguintes colunas:
    * COGS
    * Revenue
      
-As medidas Custo Total, Lucro Total, Margem de Lucro, Média Receita, Receita Total, Total de Aluguéis e Total de Clientes foram geradas a partir das demais colunas.
+As medidas **Custo Total**, **Lucro Total**, **Margem de Lucro**, **Média Receita**, **Receita Total**, **Total de Aluguéis** e **Total de Clientes** foram geradas a partir das demais colunas.
 
 Quantidade de dados: 34.758 Linhas
 
