@@ -63,6 +63,26 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
   
   ![](https://i.postimg.cc/QCRBfmCk/Conect-Server.jpg)
 
+  ## Estrutura da Base de Dados
+
+A Base de Dados que geremos contém as seguintes colunas:
+
+   * dteday
+	* season
+	* yr
+	* weekday
+	* hr
+	* rider_type
+	* riders
+	* price
+	* COGS
+   * Revenue
+     
+As medidas Custo Total, Lucro Total, Margem de Lucro, Média Receita, Receita Total, Total de Aluguéis e Total de Clientes foram geradas a partir das demais colunas.
+
+Quantidade de dados: 34.758 Linhas
+
+
   ## Organização com o método Kanban
   
 Para realizar um projeto completo, um método de organização eficiente é essencial. A primeira etapa é o levantamento de requisitos, seguindo um processo bem definido para cada fase do projeto. Escolhi o **Kanban** como metodologia ágil devido à sua visualização clara através de quadros, que permite organizar as tarefas de forma intuitiva. O Kanban também oferece um fluxo contínuo de trabalho, facilitando a priorização e a execução das atividades, garantindo o acompanhamento e a conclusão das entregas de maneira estruturada e progressiva.
