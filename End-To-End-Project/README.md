@@ -1,6 +1,6 @@
 ## Projeto Bike
 
-[Bike-dash.jpg](https://postimg.cc/94jzc0D9)
+![](https://i.postimg.cc/CKR8HfYc/Bike-dash.jpg)
 
 
 ## Introdução 
