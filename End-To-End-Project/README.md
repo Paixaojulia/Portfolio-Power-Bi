@@ -1,11 +1,7 @@
 # Projeto Bike
 ### Overview do projeto
 
-
-Esse projeto foi realizado Utilizando a plataforma SQL Server Management Studio e o Power Bi, realizando o Dashboard desde o início, gerando sua base de dados, importando e montando o dashboard. 
-O projeto gira em torno dos dados adquiridos de 2 anos de uma loja de bicicletas. 
-
-
+Esse projeto é um projeto de início ao fim (*End To End*), onde vou desde a construção do Banco de Dados até a criação do Dashboard. Foram utilizados as plataformas SQL Server Management Studio e o Power Bi. O projeto gira em torno dos dados adquiridos de 2 anos de uma loja de bicicletas. 
 
 
 ![](https://i.postimg.cc/90wRy3hz/Bike-dash.jpg)
@@ -66,7 +62,7 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 
   ## Estrutura da Base de Dados
 
-A Base de Dados que geremos contém as seguintes colunas:
+A Base de Dados que importamos contém as seguintes colunas:
 
    * dteday
    * season
