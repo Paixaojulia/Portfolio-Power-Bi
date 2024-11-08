@@ -1,4 +1,4 @@
-# Projeto Bike
+# Projeto Bike Store (End-To-End)
 ### Overview do projeto
 
 Esse projeto é um projeto de início ao fim (*End To End*), onde vou desde a construção do Banco de Dados até a criação do Dashboard. Foram utilizados as plataformas SQL Server Management Studio e o Power Bi. O projeto gira em torno dos dados adquiridos de 2 anos de uma loja de bicicletas. 
