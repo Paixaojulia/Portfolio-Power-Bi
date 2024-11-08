@@ -100,6 +100,31 @@ Para realizar um projeto completo, um método de organização eficiente é esse
  * **Custo**: O custo de serviço da empresa é o total de 4,74M.
  * **Total de Clientes**: A quantidade de clientes distintos é de 776.
  * **Aluguéis**: O número de aluguéis de bicicleta foi de 3M. 
- * **Margem de Lucro**: A margem de lucro ficou em 68,80%. 
-  
+ * **Margem de Lucro**: A margem de lucro ficou em 68,80%.
+
+   ## Insights e acionáveis:
+
+ *  **Aumento de movimentação**:
+
+Observa-se que os horários de maior movimentação na loja é entre às 7h até 10h e entre 16h até 20h. O horários que trazem maior receita na loja fazem sentido com a maioria das rotinas dos clientes que possivelmente estariam indo para escola, trabalho ou até em um momento de lazer no parque mais próximo. Um bom acionável para tornar os horários não tão movimentados em lucrativos são campanhas de marketing com promoções nos horários atípicos, assim incentivando o maior uso das bicicletas. 
+
+* **Otimização de Custos e Eficiência Operacional**:
+
+Apesar da margem de lucro já estar em um bom nível, é sempre bem vindo a revisão de custos fixos e variáveis para buscar oportunidades de redução ainda maior, principalmente em razão dos meses de baixa demanda.
+
+* **Aumento de clientes registrados**:
+
+A maior parte dos aluguéis é feita por clientes já registrados **(81,2%)**, que chama atenção pela loja ter uma base de clientes fiéis. A parte dos clientes casuais se trata de apenas **(18,8%)**, sendo assim se encontra uma necessidade de criação de promoções e pacotes para atração de clientes, possivelmente até programas de fidelização do cliente. 
+
+
+* **Melhoria de Desempenho em Baixa Temporada:**  
+
+O gráfico de barras indica o baixo índice de aluguéis de bicicleta na temporada de inverno, evidenciando uma sazonalidade também no mercado. Nos meses de alta demanda, deve-se investir em marketing para aproveitar a popularidade do aluguel de bicicletas, focando no público que busca atividades ao ar livre. 
+
+
+  ## Finalização
+
+  Por fim finalizamos o processo de criação auxiliado pelo método Kanban! E assim ficou o meu quadro de organização:
+
+  ![](https://i.postimg.cc/Y2T1rhdw/Kanban-final.jpg)
   
