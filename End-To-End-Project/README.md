@@ -40,12 +40,12 @@ Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador 
 ![](https://i.postimg.cc/GhtH3VYv/With-cte.jpg)
 
 
-* Na segunda parte do código fiz um *LEFT JOIN* entre as tabelas years_union (CTE) e a tabela cost_table com objetivo de trazer os valores de custo, uni utilizando a chave yr.  Com isso criei duas colunas, revenue e profit e trouxe as colunas necessárias.
+* Na segunda parte do código fiz um *LEFT JOIN* entre as tabelas years_union (CTE) e a tabela cost_table com objetivo de trazer os valores de custo, uni utilizando a chave yr.  Com isso criei três colunas, revenue, profit, Total_Cost e trouxe as colunas necessárias.
    * **revenue**: Tem o objetivo de trazer a receita multiplicando o número de ciclistas (riders) pelo preço cobrado na viagem (price).
    * **profit**: Possui o objetivo de trazer o lucro, calculando a diferença entre a receita total (profit) e o custo da operação (COGS - Cost of Goods)
-
+   * **Total_Cost**: Seu objetivo é trazer o custo total, calculando a multiplicação do custo x corrida.
      
- ![](https://i.postimg.cc/Ss3BQGBF/select.jpg)    
+ ![](https://i.postimg.cc/66vyF5Jm/select.jpg)    
 
 
   ## Conexão ao Power Bi
