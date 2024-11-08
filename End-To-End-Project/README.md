@@ -6,6 +6,7 @@ Esse projeto é um projeto de início ao fim (*End To End*), onde vou desde a co
 
 ![](https://i.postimg.cc/90wRy3hz/Bike-dash.jpg)
 
+[Segue o link para visualização do Dashboard Online](https://app.powerbi.com/view?r=eyJrIjoiM2ZhOTQwZmEtMzU1Zi00N2VkLTgwNjgtZWM0MGU0ZGZjZmM0IiwidCI6ImQ2YTdlNTA2LTI2ZmEtNDMwNi1iZmZlLTlkODc5MDBmNDIwZCJ9)
 
 ## Introdução 
 Para iniciar esse projeto decidi escolher o SQL Server para ser meu gerenciador de Banco de Dados. A sua instalação foi realizada de forma local no meu computador. 
