@@ -1,5 +1,6 @@
 # Dashboard Loja Tecnologia 
-![](https://i.postimg.cc/XY48jBGM/dash.jpg)
+
+![Imagem dash](https://i.postimg.cc/XY48jBGM/dash.jpg)
 
 [Link para o meu projet](https://app.powerbi.com/view?r=eyJrIjoiZjE5YmVlMDktMDkzOC00MGMxLThhMTgtYzM0OTczOGNmNDU2IiwidCI6ImQ2YTdlNTA2LTI2ZmEtNDMwNi1iZmZlLTlkODc5MDBmNDIwZCJ9)
 
@@ -12,6 +13,7 @@ A base de dados contém informações valiosas que nos ajudam a otimizar as oper
 ## Estrutura da Base de dados 
 
 A estrutura da base de dados pode ser conferida através desse arquivo **xlsx** na descrição do projeto. :)
+
 ![Breve visão da base de dados](https://i.postimg.cc/zXsnvbyD/base.jpg)
 
 O arquivo em excel contém as seguintes colunas: 
