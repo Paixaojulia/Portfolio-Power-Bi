@@ -1,0 +1,30 @@
+# Dashboard Loja de Tecnologia 
+
+
+
+Esse projeto foi realizado apenas utilizando a plataforma Power Bi, trazendo um Dashboard que contém análises de vendas em uma loja de produtos tecnológicos. 
+
+A base de dados contém informações valiosas que nos ajudam a otimizar as operações, crescimento de vendas e acentuar a satisfação do cliente. Agora segue um breve resumo dos principais indicadores da base de dados: 
+
+1. **Data de Venda**: Possuímos o registro da data de cada venda, assim realizando a análise de tendências de época analisando períodos de alta demanda e suas variações.
+
+2. **Continente**: Permite a análise da distribuição geográfica do faturamento e a identificação de mercados estratégicos para expansão.
+
+## Estrutura da Base de dados 
+
+A estrutura da base de dados pode ser conferida através desse arquivo **xlsx** na descrição do projeto. :)
+![Breve visão da base de dados](https://i.postimg.cc/sfP6g2LR/Ssss.jpg)
+
+
+O arquivo em excel contém as seguintes colunas: 
+* Data de Venda
+* Produto
+* Categoria 
+* Marca
+* Continente
+* Qtd Vendida
+* Preço Unitário
+* Custo Unitário
+* Faturamento
+
+Quantidade de dados: 203.882
