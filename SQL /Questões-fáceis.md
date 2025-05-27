@@ -1,6 +1,6 @@
 
-  # Questões fáceis de SQL 
- ### Segue uma lista selecionada de questões fáceis de SQL retiradas diretamente do site HackerRank.
+   # Questões fáceis de SQL 
+ ## Segue uma lista selecionada de questões fáceis de SQL retiradas diretamente do site HackerRank.
 
 ## 1 - Select All
 Consulte todas as colunas (atributos) para cada linha na tabela CITY. 
