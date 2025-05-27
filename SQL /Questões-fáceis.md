@@ -29,3 +29,79 @@ A tabela CITY é descrita da seguinte forma:
 SELECT NAME 
 FROM CITY 
 WHERE COUNTRYCODE = 'JPN' 
+
+## 4 - Select By ID
+Consultar todas as colunas de uma cidade em CITY com o ID 1661.
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/49fa4eee-f43a-4b34-a7bf-1186397ed29c)
+
+##### Resposta:
+SELECT * FROM CITY
+WHERE ID = 1661
+
+## 5 - Revising the Select Query I
+Consulte todas as colunas de todas as cidades americanas na tabela CITY com populações maiores que 100.000. O CountryCode para América é EUA.
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/7d87b1a4-42fc-4e7a-8903-80ef4db1fc50)
+
+##### Resposta:
+select * from CITY 
+where COUNTRYCODE = 'USA'
+  AND POPULATION > 100000 
+
+## 6 - Revising the Select Query II
+Consulte o campo NAME para todas as cidades americanas na tabela CITY com populações maiores que 120.000. O CountryCode para América é EUA.
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/a4366c08-6069-414c-8577-7e255777b897)
+
+##### Resposta:
+SELECT 
+  NAME
+FROM CITY 
+WHERE POPULATION > 120000
+AND COUNTRYCODE = 'USA'
+
+## 7 - Weather Observation Station 1
+Consulte uma lista de CIDADE e ESTADO da tabela ESTAÇÃO.
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/12abeae4-8a96-49e3-be1e-0931f595fd16)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT CITY, STATE 
+FROM STATION 
+
+## 8 - Weather Observation Station 3
+Consulte uma lista de nomes de CIDADES de ESTAÇÃO para cidades que tenham um número de identificação par. Exiba os resultados em qualquer ordem, mas exclua duplicatas da resposta.
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/4510ccb1-6097-4284-8a75-dd0c593e1e8e)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY FROM STATION 
+WHERE ID % 2 = 0;
+
+## 9 - Weather Observation Station 4 
+Encontre a diferença entre o número total de entradas CITY na tabela e o número de entradas CITY distintas na tabela.
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/6ed735f1-7509-4b55-95c1-2dde1ffad7d4)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+Por exemplo, se houver três registros na tabela com os valores CITY 'New York', 'New York', 'Bengalaru', haverá 2 nomes de cidades diferentes: 'New York' e 'Bengalaru'. A consulta retorna , porque número total de registros - número de nomes de cidades exclusivos = 3 - 2 = 1.
+
+##### Resposta:
+SELECT
+    COUNT (CITY) - COUNT (DISTINCT CITY)
+FROM STATION;
+
+## 10 - Consulte a lista de nomes de CIDADES que começam com vogais (por exemplo, a, e, i, o ou u) em STATION. Seu resultado não pode conter duplicatas.
+ Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/11592738-098a-4ea8-a1d6-5b5613e37108)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT CITY FROM STATION 
+WHERE LEFT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
+
+
