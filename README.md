@@ -5,8 +5,8 @@ Dashboards elaborados com foco em estudos na ferramenta Power BI, visando constr
 - [Dashboard Loja Tec](https://github.com/Paixaojulia/Portfolio-Power-Bi/tree/main/Loja%20Tech)
 
 # Portfolio-SQL 
-Materiais desenvolvidos para aprendizado em SQL.  
-- [Questões Fáceis] ()
+Questões de SQL resolvidas do site HackerRank em todos os níveis.  
+- [SQL]()
 
 ## Informação de Contatos:
 Se você tiver alguma sugestão ou feedback, sinta-se a vontade para entrar em contato comigo! 
