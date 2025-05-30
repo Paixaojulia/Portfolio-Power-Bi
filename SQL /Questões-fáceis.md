@@ -94,7 +94,8 @@ SELECT
     COUNT (CITY) - COUNT (DISTINCT CITY)
 FROM STATION;
 
-## 10 - Consulte a lista de nomes de CIDADES que começam com vogais (por exemplo, a, e, i, o ou u) em STATION. Seu resultado não pode conter duplicatas.
+## 10 - Weather Observation Station 6
+Consulte a lista de nomes de CIDADES que começam com vogais (por exemplo, a, e, i, o ou u) em STATION. Seu resultado não pode conter duplicatas.
  Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/11592738-098a-4ea8-a1d6-5b5613e37108)
@@ -103,5 +104,86 @@ onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 ##### Resposta:
 SELECT CITY FROM STATION 
 WHERE LEFT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
+
+## 11 - Weather Observation Station 7
+Consulte a lista de nomes de CIDADES terminados em vogais (a, e, i, o, u) da ESTAÇÃO. Seu resultado não pode conter duplicatas.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/171a1fef-36ca-4530-a86e-78b96415beaf)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY
+FROM STATION
+WHERE RIGHT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+## 12 - Weather Observation Station 8
+Consulte a lista de nomes de CIDADES de ESTAÇÃO que possuem vogais (por exemplo, a, e, i, o e u) como primeiro e último caracteres. Seu resultado não pode conter duplicatas.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/222c3e79-bf0d-4c31-a114-cd8a271d2ec2)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY
+FROM STATION
+WHERE LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
+AND RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+## 13 - Weather Observation Station 9
+Consulte a lista de nomes de CIDADES de ESTAÇÃO que não começam com vogais. Seu resultado não pode conter duplicatas.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/1bcf570d-99de-4cf4-99d2-3c2aa283ad5a)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY
+FROM STATION
+WHERE NOT LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+## 14 - Weather Observation Station 10
+Consulte a lista de nomes de CIDADES da ESTAÇÃO que não terminam com vogais. Seu resultado não pode conter duplicatas.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/fa978753-1df7-4640-9beb-2cf34b0fb41f)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY
+FROM STATION
+WHERE NOT RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+
+## 15 - Weather Observation Station 11
+Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais ou não terminam com vogais. Seu resultado não pode conter duplicatas.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/299b4107-6557-4cc1-8218-a341f87199a5)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY
+FROM STATION
+WHERE NOT LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
+OR NOT RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
+
+
+## 16 - Weather Observation Station 12
+Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais e não terminam com vogais. Seu resultado não pode conter duplicatas.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/7c6ee490-da0c-41b8-8f84-0243b85980cf)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+SELECT DISTINCT CITY
+FROM STATION
+WHERE LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
+AND RIGHT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
+
+
+
+
 
 
