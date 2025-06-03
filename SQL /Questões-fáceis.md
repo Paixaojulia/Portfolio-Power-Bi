@@ -263,6 +263,86 @@ WHERE salary > 2000
 AND months < 10
 ORDER BY employee_id ASC
 
+## 20 - Revising Aggregations - The Count Function
+Input Format
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/704d00be-9d1a-4aaa-b440-6ba7d16bff0f)
+
+##### Resposta:
+SELECT COUNT(*)
+FROM CITY
+WHERE Population > 100000;
+
+## 21 - Revising Aggregations - The Sum Function
+Consulte a população total de todas as cidades em CITY cujo distrito é Califórnia.
+Input Format
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/8fc25c9b-f672-443e-a49e-10f66e7097f1)
+
+##### Resposta:
+SELECT SUM(POPULATION) AS populacao
+FROM CITY
+WHERE DISTRICT = 'California';
+
+## 22 - Revising Aggregations - Averages
+Consulte a população média de todas as cidades em CITY cujo distrito é Califórnia.
+Input Format
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/682414c3-8998-45a2-a202-6bc900e107e7)
+
+##### Resposta:
+SELECT AVG (POPULATION) FROM CITY
+WHERE DISTRICT = 'California'
+
+## 23 - Average Population
+Consulte a população média de todas as cidades em CITY, arredondada para o número inteiro mais próximo.
+Input Format
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/a82019a1-b767-463f-b691-e8e9d2c6ca91)
+
+##### Resposta:
+SELECT FLOOR(AVG(Population)) AS AveragePopulation
+FROM CITY;
+
+## 24 - Japan Population
+Consulte a soma das populações de todas as cidades japonesas em CITY. O COUNTRYCODE para o Japão é JPN.
+Input Format
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/685d4dc9-38ae-495c-878a-74708f722f1a)
+
+##### Resposta:
+SELECT SUM(Population) 
+FROM CITY
+WHERE COUNTRYCODE = 'JPN'
+
+## 25 - Population Density Difference
+Consulte a diferença entre as populações máxima e mínima em CITY.
+Input Format
+A tabela CITY é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/120f921e-91ae-4933-b5c2-9c128d3f13c4)
+
+##### Resposta:
+SELECT MAX(population) - MIN(population) AS PopulationDifference
+FROM CITY;
+
+## 26 - Population Census
+Considerando as tabelas CITY e COUNTRY, consulte a soma das populações de todas as cidades cujo CONTINENTE é "Asia".
+Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
+Input Format
+As tabelas CITY e COUNTRY são descritas da seguinte forma:
+![image](https://github.com/user-attachments/assets/8a2a4ea4-1e8e-4b49-a1fd-8f511cbe9051)
+![image](https://github.com/user-attachments/assets/82279835-5115-4a3b-898b-d1d4c7fe459d)
+
+##### Resposta:
+SELECT SUM(CITY.Population) AS TotalPopulation
+FROM CITY
+JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
+WHERE COUNTRY.Continent = 'Asia';
+
+
+
+
+
 
 
 
