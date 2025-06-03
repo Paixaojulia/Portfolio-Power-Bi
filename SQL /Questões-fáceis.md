@@ -65,7 +65,7 @@ AND COUNTRYCODE = 'USA'
 Consulte uma lista de CIDADE e ESTADO da tabela ESTAÇÃO.
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/12abeae4-8a96-49e3-be1e-0931f595fd16)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT CITY, STATE 
@@ -75,7 +75,7 @@ FROM STATION
 Consulte uma lista de nomes de CIDADES de ESTAÇÃO para cidades que tenham um número de identificação par. Exiba os resultados em qualquer ordem, mas exclua duplicatas da resposta.
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/4510ccb1-6097-4284-8a75-dd0c593e1e8e)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY FROM STATION 
@@ -85,7 +85,7 @@ WHERE ID % 2 = 0;
 Encontre a diferença entre o número total de entradas CITY na tabela e o número de entradas CITY distintas na tabela.
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/6ed735f1-7509-4b55-95c1-2dde1ffad7d4)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 Por exemplo, se houver três registros na tabela com os valores CITY 'New York', 'New York', 'Bengalaru', haverá 2 nomes de cidades diferentes: 'New York' e 'Bengalaru'. A consulta retorna , porque número total de registros - número de nomes de cidades exclusivos = 3 - 2 = 1.
 
@@ -99,7 +99,7 @@ Consulte a lista de nomes de CIDADES que começam com vogais (por exemplo, a, e,
  Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/11592738-098a-4ea8-a1d6-5b5613e37108)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT CITY FROM STATION 
@@ -110,7 +110,7 @@ Consulte a lista de nomes de CIDADES terminados em vogais (a, e, i, o, u) da EST
 Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/171a1fef-36ca-4530-a86e-78b96415beaf)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY
@@ -122,7 +122,7 @@ Consulte a lista de nomes de CIDADES de ESTAÇÃO que possuem vogais (por exempl
 Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/222c3e79-bf0d-4c31-a114-cd8a271d2ec2)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY
@@ -135,7 +135,7 @@ Consulte a lista de nomes de CIDADES de ESTAÇÃO que não começam com vogais. 
 Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/1bcf570d-99de-4cf4-99d2-3c2aa283ad5a)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY
@@ -147,7 +147,7 @@ Consulte a lista de nomes de CIDADES da ESTAÇÃO que não terminam com vogais. 
 Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/fa978753-1df7-4640-9beb-2cf34b0fb41f)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY
@@ -160,7 +160,7 @@ Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais o
 Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/299b4107-6557-4cc1-8218-a341f87199a5)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY
@@ -174,7 +174,7 @@ Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais e
 Input Format
 A tabela STATION é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/7c6ee490-da0c-41b8-8f84-0243b85980cf)
-onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 SELECT DISTINCT CITY
@@ -182,7 +182,86 @@ FROM STATION
 WHERE LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
 AND RIGHT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
 
+## 17 - Higher Than 75 Marks
+Consulte o nome de qualquer aluno em STUDENTS que tenha pontuação superior 75 a pontos. Ordene sua saída pelos três últimos caracteres de cada nome. Se dois ou mais alunos tiverem nomes terminados nos mesmos três últimos caracteres (por exemplo: Bobby, Robby, etc.), ordene-os secundariamente por ID crescente.
+Input Format
+A tabela STUDENTS é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/aeab6145-bf5c-491b-99db-73461089b3bd)
+A coluna Name contém apenas letras maiúsculas (A-Z) e minúsculas (a-z).
 
+Sample Input
+![image](https://github.com/user-attachments/assets/a055ee86-b291-4d68-bb36-662b9437866b)
+
+Sample Output
+Ashley
+Julia
+Belvet
+
+Explicação
+Somente Ashley, Julia e Velvet têm pontos > 75. Se você olhar para os três últimos caracteres de cada um dos seus nomes, não há duplicatas e 'ley' < 'lia' < 'vet'.
+
+##### Resposta:
+SELECT Name
+FROM STUDENTS
+WHERE Marks > 75
+ORDER BY RIGHT(Name, 3), ID ASC;
+
+## 18 - Employee Names
+Escreva uma consulta que imprima uma lista de nomes de funcionários (por exemplo: o atributo name) da tabela Employee em ordem alfabética.
+Input Format
+A tabela Employee, que contém os dados dos funcionários de uma empresa, é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/26d7b718-06e5-4484-84e7-2279ab42809b)
+Onde employee_id é o número de identificação do funcionário, name é o nome dele, months é o número total de meses que ele trabalha na empresa e salary é o salário mensal.
+
+Sample Input
+![image](https://github.com/user-attachments/assets/5521950d-6523-4418-a6b6-5d41ff990496)
+
+Sample Output
+Angela
+Bonnie
+Frank
+Joe
+Kimberly
+Lisa
+Michael
+Patrick
+Rose
+Todd
+
+##### Resposta:
+SELECT name
+FROM Employee
+ORDER BY name ASC
+
+## 19 - Employee Salaries
+Escreva uma consulta que imprima uma lista de nomes de funcionários (por exemplo: o atributo name) para funcionários com salário superior a US$ 2.000 por mês e que estejam empregados há menos de 10 meses. Classifique o resultado em ordem crescente de employee_id.
+Input Format
+A tabela Employee contendo dados de funcionários de uma empresa é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/8ab9e71a-f303-4d6a-ba15-37d4c2b9812e)
+Onde employee_id é o número de identificação do funcionário, name é o nome dele, months é o número total de meses que ele trabalha na empresa e salary é o salário mensal.
+
+Sample Input
+![image](https://github.com/user-attachments/assets/d436daed-efa0-47d4-96de-f6ca483ec7f7)
+
+Sample Output
+Angela
+Michael
+Todd
+Joe
+
+Explicação
+Angela é funcionária há 1 mês e ganha US$ 3.443 por mês.
+Michael é funcionário há 6 meses e ganha US$ 2.017 por mês.
+Todd é funcionário há 5 meses e ganha US$ 3.396 por mês.
+Joe é funcionário há 9 meses e ganha US$ 3.573 por mês.
+Ordenamos nossa saída em ordem crescente de employee_id.
+
+##### Resposta:
+SELECT name
+FROM Employee
+WHERE salary > 2000
+AND months < 10
+ORDER BY employee_id ASC
 
 
 
