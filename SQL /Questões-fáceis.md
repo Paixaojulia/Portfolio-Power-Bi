@@ -32,9 +32,11 @@ A tabela CITY é descrita da seguinte forma:
 ![image](https://github.com/user-attachments/assets/69c009d8-f31f-41dc-936f-975000506f5f)
 
 ##### Resposta:
+```
 SELECT NAME 
 FROM CITY 
 WHERE COUNTRYCODE = 'JPN'
+```
 
 ## 4 - Select By ID
 Consultar todas as colunas de uma cidade em CITY com o ID 1661.
