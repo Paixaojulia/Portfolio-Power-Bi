@@ -46,7 +46,8 @@ A tabela CITY é descrita da seguinte forma:
 
 ##### Resposta:
 ```
-SELECT * FROM CITY
+SELECT *
+FROM CITY
 WHERE ID = 1661
 ```
 ## 5 - Revising the Select Query I
@@ -57,8 +58,9 @@ A tabela CITY é descrita da seguinte forma:
 
 ##### Resposta:
 ```
-select * from CITY 
-where COUNTRYCODE = 'USA'
+SELECT *
+FROM CITY 
+WHERE COUNTRYCODE = 'USA'
   AND POPULATION > 100000 
 ```
 ## 6 - Revising the Select Query II
@@ -69,8 +71,7 @@ A tabela CITY é descrita da seguinte forma:
 
 ##### Resposta:
 ```
-SELECT 
-  NAME
+SELECT NAME
 FROM CITY 
 WHERE POPULATION > 120000
 AND COUNTRYCODE = 'USA'
@@ -99,7 +100,8 @@ Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 ```
-SELECT DISTINCT CITY FROM STATION 
+SELECT DISTINCT CITY
+FROM STATION 
 WHERE ID % 2 = 0;
 ```
 ## 9 - Weather Observation Station 4 
@@ -115,7 +117,7 @@ Por exemplo, se houver três registros na tabela com os valores CITY 'New York',
 ##### Resposta:
 ```
 SELECT
-    COUNT (CITY) - COUNT (DISTINCT CITY)
+COUNT (CITY) - COUNT (DISTINCT CITY)
 FROM STATION;
 ```
 ## 10 - Weather Observation Station 6
@@ -129,7 +131,8 @@ Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
 ```
-SELECT CITY FROM STATION 
+SELECT CITY
+FROM STATION 
 WHERE LEFT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
 ```
 ## 11 - Weather Observation Station 7
