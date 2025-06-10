@@ -6,7 +6,7 @@ Dashboards elaborados com foco em estudos na ferramenta Power BI, visando constr
 
 # Portfolio-SQL 
 Questões de SQL resolvidas do site HackerRank em todos os níveis.  
-- [SQL](https://github.com/Paixaojulia/Portfolio-Julia/tree/9b3c3ab8280b10ba93b345b85ffe9e68f1a0b569/SQL%20)
+- [SQL](https://github.com/Paixaojulia/Portfolio-Julia/tree/main/SQL%20)
 
 ## Informação de Contatos:
 Se você tiver alguma sugestão ou feedback, sinta-se a vontade para entrar em contato comigo! 
