@@ -19,9 +19,11 @@ A tabela CITY é descrita da seguinte forma:
 
 ##### Resposta:
 
-```SELECT *```
-``` FROM CITY```
-```WHERE COUNTRYCODE = 'JPN'```
+```
+   SELECT *
+   FROM CITY
+   WHERE COUNTRYCODE = 'JPN'
+   ```
 
 ## 3 - Japanese Cities' Names
 Consulte os nomes de todas as cidades japonesas na tabela CITY. O COUNTRYCODE para o Japão é JPN.
