@@ -90,7 +90,26 @@ Onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 SELECT CITY, STATE 
 FROM STATION 
 ```
-## 8 - Weather Observation Station 3
+## 8 - Weather Observation Station 2
+Consulte os dois valores a seguir na tabela STATION:
+A soma de todos os valores em LAT_N arredondada para uma escala de 2 casas decimais.
+A soma de todos os valores em LONG_W arredondada para uma escala de 2 casas decimais.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/ef388eb2-20f3-4690-b861-85931ffe5dae)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+Output Format
+Seus resultados devem estar no formato:
+lat lon
+Onde lat é a soma de todos os valores em LAT_N e é a soma de todos os valores em LONG_W. Ambos os resultados devem ser arredondados para uma escala de 2 casas decimais.
+
+##### Resposta:
+```
+SELECT ROUND (SUM(LAT_N), 2) , ROUND(SUM(LONG_W), 2) 
+FROM STATION
+```
+
+## 9 - Weather Observation Station 3
 Consulte uma lista de nomes de CIDADES de ESTAÇÃO para cidades que tenham um número de identificação par. Exiba os resultados em qualquer ordem, mas exclua duplicatas da resposta.
 A tabela STATION é descrita da seguinte forma:
 
@@ -104,7 +123,7 @@ SELECT DISTINCT CITY
 FROM STATION 
 WHERE ID % 2 = 0;
 ```
-## 9 - Weather Observation Station 4 
+## 10 - Weather Observation Station 4 
 Encontre a diferença entre o número total de entradas CITY na tabela e o número de entradas CITY distintas na tabela.
 A tabela STATION é descrita da seguinte forma:
 
@@ -120,7 +139,7 @@ SELECT
 COUNT (CITY) - COUNT (DISTINCT CITY)
 FROM STATION;
 ```
-## 10 - Weather Observation Station 6
+## 11 - Weather Observation Station 6
 Consulte a lista de nomes de CIDADES que começam com vogais (por exemplo, a, e, i, o ou u) em STATION. Seu resultado não pode conter duplicatas.
  Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -135,7 +154,7 @@ SELECT CITY
 FROM STATION 
 WHERE LEFT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
 ```
-## 11 - Weather Observation Station 7
+## 12 - Weather Observation Station 7
 Consulte a lista de nomes de CIDADES terminados em vogais (a, e, i, o, u) da ESTAÇÃO. Seu resultado não pode conter duplicatas.
 Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -150,7 +169,7 @@ SELECT DISTINCT CITY
 FROM STATION
 WHERE RIGHT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
-## 12 - Weather Observation Station 8
+## 13 - Weather Observation Station 8
 Consulte a lista de nomes de CIDADES de ESTAÇÃO que possuem vogais (por exemplo, a, e, i, o e u) como primeiro e último caracteres. Seu resultado não pode conter duplicatas.
 Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -166,7 +185,7 @@ FROM STATION
 WHERE LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
 AND RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
-## 13 - Weather Observation Station 9
+## 14 - Weather Observation Station 9
 Consulte a lista de nomes de CIDADES de ESTAÇÃO que não começam com vogais. Seu resultado não pode conter duplicatas.
 Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -181,7 +200,7 @@ SELECT DISTINCT CITY
 FROM STATION
 WHERE NOT LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
-## 14 - Weather Observation Station 10
+## 15 - Weather Observation Station 10
 Consulte a lista de nomes de CIDADES da ESTAÇÃO que não terminam com vogais. Seu resultado não pode conter duplicatas.
 Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -197,7 +216,7 @@ FROM STATION
 WHERE NOT RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
 
-## 15 - Weather Observation Station 11
+## 16 - Weather Observation Station 11
 Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais ou não terminam com vogais. Seu resultado não pode conter duplicatas.
 Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -214,7 +233,7 @@ WHERE NOT LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U')
 OR NOT RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
 
-## 16 - Weather Observation Station 12
+## 17 - Weather Observation Station 12
 Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais e não terminam com vogais. Seu resultado não pode conter duplicatas.
 Input Format
 A tabela STATION é descrita da seguinte forma:
@@ -230,7 +249,78 @@ FROM STATION
 WHERE LEFT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U')
 AND RIGHT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
 ```
-## 17 - Higher Than 75 Marks
+## 18 - Weather Observation Station 13 
+Consultar a soma das latitudes do norte (LAT_N) da ESTAÇÃO com valores maiores que 38.7880 e menos de 137.2145. Trunque sua resposta para 4 casas decimais.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/e8e9c6bf-1699-4de9-8151-73a4f99154cb)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+```
+SELECT ROUND (SUM(LAT_N), 4) 
+FROM STATION 
+WHERE LAT_N > 38.7880 AND LAT_N < 137.2345
+```
+## 19 - Weather Observation Station 14
+Consultar o maior valor das latitudes do norte (LAT_N) da ESTAÇÃO que seja menor que 137.2345. Trunque sua resposta para 4 casas decimais.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/4552dfa3-bd40-4f38-9427-4514d01a50a6)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+```
+SELECT ROUND (MAX(LAT_N), 4) 
+FROM STATION
+WHERE LAT_N < 137.2345
+```
+## 20 - Weather Observation Station 15
+Consulte a Longitude Ocidental (LONG_W) para encontrar a maior Latitude Norte (LAT_N) em STATION que seja menor que 137.2345. Arredonde sua resposta para 4 casas decimais.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/79588633-8b87-49ff-97ce-76cf3bb4aaaa)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+```
+SELECT ROUND (LONG_W, 4) 
+FROM STATION 
+WHERE LAT_N < 137.2345 
+ORDER BY LAT_N 
+DESC LIMIT 1;
+```
+## 21 - Weather Observation Station 16
+Consultar a menor latitude norte (LAT_N) da ESTAÇÃO que seja maior que 38.7780. Arredonde sua resposta para 4 casas decimais.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/d9fd75ef-6e01-4b50-817e-47f0773ea7a2)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+
+##### Resposta:
+```
+SELECT ROUND (LAT_N, 4)
+FROM STATION 
+WHERE LAT_N  >  38.7780 
+ORDER BY LAT_N 
+LIMIT 1;
+```
+## 22 - Weather Observation Station 17
+Consulte a Longitude Ocidental (LONG_W) onde a menor Latitude Norte (LAT_N) em STATION é maior que 38.7780. Arredonde sua resposta para 4 casas decimais.
+Input Format
+A tabela STATION é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/09668a62-9967-4f7c-bf12-f1b336248e46)
+onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
+##### Resposta:
+```
+SELECT ROUND (LONG_W,  4)
+FROM STATION 
+WHERE LAT_N > 38.7780 
+ORDER BY LAT_N ASC 
+LIMIT 1;
+```
+
+## 19 - Higher Than 75 Marks
 Consulte o nome de qualquer aluno em STUDENTS que tenha pontuação superior 75 a pontos. Ordene sua saída pelos três últimos caracteres de cada nome. Se dois ou mais alunos tiverem nomes terminados nos mesmos três últimos caracteres (por exemplo: Bobby, Robby, etc.), ordene-os secundariamente por ID crescente.
 Input Format
 A tabela STUDENTS é descrita da seguinte forma:
@@ -257,7 +347,7 @@ FROM STUDENTS
 WHERE Marks > 75
 ORDER BY RIGHT(Name, 3), ID ASC;
 ```
-## 18 - Employee Names
+## 19 - Employee Names
 Escreva uma consulta que imprima uma lista de nomes de funcionários (por exemplo: o atributo name) da tabela Employee em ordem alfabética.
 Input Format
 A tabela Employee, que contém os dados dos funcionários de uma empresa, é descrita da seguinte forma:
@@ -410,6 +500,39 @@ FROM CITY
 JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
 WHERE COUNTRY.Continent = 'Asia';
 ```
+## 27 - African Cities
+Considerando as tabelas CITY e COUNTRY, consulte os nomes de todas as cidades cujo CONTINENT é "África".
+Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
+Input Format
+As tabelas CITY e COUNTRY são descritas da seguinte forma:
+![image](https://github.com/user-attachments/assets/0042ff99-c613-49e2-b219-98d00f9f8188)
+![image](https://github.com/user-attachments/assets/5cc80786-5296-41f1-bc68-6beda523adba)
+
+##### Resposta:
+```
+SELECT CITY.Name
+FROM CITY
+JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
+WHERE COUNTRY.Continent = 'Africa';
+```
+## 28 - Average Population of Each Continent
+Considerando as tabelas CITY e COUNTRY, consulte os nomes de todos os continentes (COUNTRY.Continent) e suas respectivas populações médias urbanas (CITY.Population), arredondadas para o número inteiro mais próximo.
+Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
+Input Format
+As tabelas CITY e COUNTRY são descritas da seguinte forma:
+![image](https://github.com/user-attachments/assets/991c0887-0538-4421-94d9-cdb02f6bbd1d)
+![image](https://github.com/user-attachments/assets/459300f4-c4da-4462-9080-f54a49f0e17d)
+
+##### Resposta:
+```
+SELECT COUNTRY.Continent, FLOOR(AVG(CITY.Population)) AS AverageCityPopulation
+FROM CITY
+JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
+GROUP BY COUNTRY.Continent;
+```
+## 29 -
+
+
 
 
 
