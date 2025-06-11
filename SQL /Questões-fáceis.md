@@ -96,7 +96,9 @@ A soma de todos os valores em LAT_N arredondada para uma escala de 2 casas decim
 A soma de todos os valores em LONG_W arredondada para uma escala de 2 casas decimais.
 Input Format
 A tabela STATION é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/ef388eb2-20f3-4690-b861-85931ffe5dae)
+
 onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 Output Format
 Seus resultados devem estar no formato:
