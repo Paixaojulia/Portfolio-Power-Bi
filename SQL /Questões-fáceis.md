@@ -320,7 +320,7 @@ ORDER BY LAT_N ASC
 LIMIT 1;
 ```
 
-## 19 - Higher Than 75 Marks
+## 23 - Higher Than 75 Marks
 Consulte o nome de qualquer aluno em STUDENTS que tenha pontuação superior 75 a pontos. Ordene sua saída pelos três últimos caracteres de cada nome. Se dois ou mais alunos tiverem nomes terminados nos mesmos três últimos caracteres (por exemplo: Bobby, Robby, etc.), ordene-os secundariamente por ID crescente.
 Input Format
 A tabela STUDENTS é descrita da seguinte forma:
@@ -347,7 +347,7 @@ FROM STUDENTS
 WHERE Marks > 75
 ORDER BY RIGHT(Name, 3), ID ASC;
 ```
-## 19 - Employee Names
+## 24 - Employee Names
 Escreva uma consulta que imprima uma lista de nomes de funcionários (por exemplo: o atributo name) da tabela Employee em ordem alfabética.
 Input Format
 A tabela Employee, que contém os dados dos funcionários de uma empresa, é descrita da seguinte forma:
@@ -377,7 +377,7 @@ SELECT name
 FROM Employee
 ORDER BY name ASC
 ```
-## 19 - Employee Salaries
+## 25 - Employee Salaries
 Escreva uma consulta que imprima uma lista de nomes de funcionários (por exemplo: o atributo name) para funcionários com salário superior a US$ 2.000 por mês e que estejam empregados há menos de 10 meses. Classifique o resultado em ordem crescente de employee_id.
 Input Format
 A tabela Employee contendo dados de funcionários de uma empresa é descrita da seguinte forma:
@@ -410,7 +410,7 @@ WHERE salary > 2000
 AND months < 10
 ORDER BY employee_id ASC
 ```
-## 20 - Revising Aggregations - The Count Function
+## 26 - Revising Aggregations - The Count Function
 Input Format
 A tabela CITY é descrita da seguinte forma:
 
@@ -422,7 +422,7 @@ SELECT COUNT(*)
 FROM CITY
 WHERE Population > 100000;
 ```
-## 21 - Revising Aggregations - The Sum Function
+## 27 - Revising Aggregations - The Sum Function
 Consulte a população total de todas as cidades em CITY cujo distrito é Califórnia.
 Input Format
 A tabela CITY é descrita da seguinte forma:
@@ -435,7 +435,7 @@ SELECT SUM(POPULATION) AS populacao
 FROM CITY
 WHERE DISTRICT = 'California';
 ```
-## 22 - Revising Aggregations - Averages
+## 28 - Revising Aggregations - Averages
 Consulte a população média de todas as cidades em CITY cujo distrito é Califórnia.
 Input Format
 A tabela CITY é descrita da seguinte forma:
@@ -447,7 +447,7 @@ A tabela CITY é descrita da seguinte forma:
 SELECT AVG (POPULATION) FROM CITY
 WHERE DISTRICT = 'California'
 ```
-## 23 - Average Population
+## 29 - Average Population
 Consulte a população média de todas as cidades em CITY, arredondada para o número inteiro mais próximo.
 Input Format
 A tabela CITY é descrita da seguinte forma:
@@ -459,7 +459,7 @@ A tabela CITY é descrita da seguinte forma:
 SELECT FLOOR(AVG(Population)) AS AveragePopulation
 FROM CITY;
 ```
-## 24 - Japan Population
+## 30 - Japan Population
 Consulte a soma das populações de todas as cidades japonesas em CITY. O COUNTRYCODE para o Japão é JPN.
 Input Format
 A tabela CITY é descrita da seguinte forma:
@@ -472,7 +472,7 @@ SELECT SUM(Population)
 FROM CITY
 WHERE COUNTRYCODE = 'JPN'
 ```
-## 25 - Population Density Difference
+## 31 - Population Density Difference
 Consulte a diferença entre as populações máxima e mínima em CITY.
 Input Format
 A tabela CITY é descrita da seguinte forma:
@@ -484,7 +484,7 @@ A tabela CITY é descrita da seguinte forma:
 SELECT MAX(population) - MIN(population) AS PopulationDifference
 FROM CITY;
 ```
-## 26 - Population Census
+## 32 - Population Census
 Considerando as tabelas CITY e COUNTRY, consulte a soma das populações de todas as cidades cujo CONTINENTE é "Asia".
 Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
 Input Format
@@ -500,7 +500,7 @@ FROM CITY
 JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
 WHERE COUNTRY.Continent = 'Asia';
 ```
-## 27 - African Cities
+## 33 - African Cities
 Considerando as tabelas CITY e COUNTRY, consulte os nomes de todas as cidades cujo CONTINENT é "África".
 Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
 Input Format
@@ -515,7 +515,7 @@ FROM CITY
 JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
 WHERE COUNTRY.Continent = 'Africa';
 ```
-## 28 - Average Population of Each Continent
+## 34 - Average Population of Each Continent
 Considerando as tabelas CITY e COUNTRY, consulte os nomes de todos os continentes (COUNTRY.Continent) e suas respectivas populações médias urbanas (CITY.Population), arredondadas para o número inteiro mais próximo.
 Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
 Input Format
@@ -530,7 +530,7 @@ FROM CITY
 JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
 GROUP BY COUNTRY.Continent;
 ```
-## 29 -
+## 35 -
 
 
 
