@@ -530,7 +530,67 @@ FROM CITY
 JOIN COUNTRY ON CITY.CountryCode = COUNTRY.Code
 GROUP BY COUNTRY.Continent;
 ```
-## 35 -
+## 35 - Top Earners
+Definimos os ganhos totais de um funcionário como sendo o seu salário mensal x meses trabalhados, e os ganhos totais máximos como sendo os ganhos totais máximos de qualquer funcionário na tabela "Employee". Escreva uma consulta para encontrar os ganhos totais máximos de todos os funcionários, bem como o número total de funcionários que têm ganhos totais máximos. Em seguida, imprima esses valores como 2 inteiros separados por espaços.
+Top Earners
+A tabela Employee contendo dados de funcionários de uma empresa é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/661c4953-b99d-4047-9cbe-ac1ad05d0f6d)
+onde employee_id é o número de identificação do funcionário, name é o nome dele, months é o número total de meses que ele trabalha na empresa e salary é o salário mensal.
+Sample Input
+![image](https://github.com/user-attachments/assets/f57ef536-41f1-4d77-8ca8-227a259ca8a4)
+Sample Output
+69952 1
+
+Explicação
+A tabela e os dados de ganhos são representados no diagrama a seguir:
+![image](https://github.com/user-attachments/assets/324632c1-06fe-4a2c-be9d-7d4a3085c8ec)
+O valor máximo de ganhos é 69952. A única funcionária com ganhos = 69952 é Kimberly, então imprimimos o valor máximo de ganhos (69952) e uma contagem do número de funcionários que ganharam $ 69952 (que é 1) como dois valores separados por espaços.
+
+##### Resposta:
+```
+SELECT months * salary AS earnings, COUNT(*) 
+FROM Employee 
+GROUP BY months * salary 
+ORDER BY earnings DESC 
+LIMIT 1;
+```
+## 36 -  Type of Triangle
+Escreva uma consulta identificando o tipo de cada registro na tabela TRIÂNGULOS usando os comprimentos dos três lados. Produza uma das seguintes instruções para cada registro na tabela:
+
+Equilátero: É um triângulo com 3 lados de comprimentos iguais.
+Isósceles: É um triângulo com 2 lados de comprimentos iguais.
+Escaleno: É um triângulo com 3 lados de comprimentos diferentes.
+Não é um triângulo: Os valores fornecidos de A, B e C não formam um triângulo.
+Input Format
+A tabela TRIÂNGULOS é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/c29495a5-1238-4b97-813b-7ee6ff5f1cbc)
+Cada linha na tabela denota os comprimentos de cada um dos três lados de um triângulo.
+Sample Input
+![image](https://github.com/user-attachments/assets/d0c7b9b1-f081-45e8-b24e-ea51aae2150c)
+
+Sample Output
+Isósceles
+Equilátero
+Escaleno
+Não é um Triângulo
+
+Explicação
+Os valores na tupla (20,20,23) formam um triângulo isósceles, pois A ≡ B.
+Os valores na tupla (20,20,20) formam um triângulo equilátero, pois A ≡ B ≡ C. Os valores na tupla (20,21,22)
+formam um triângulo escaleno, pois A ≠ B ≠ C.
+Os valores na tupla (13,14,30) não podem formar um triângulo porque o valor combinado dos lados A e B não é maior que o do lado C.
+
+##### Resposta:
+```
+SELECT 
+  CASE 
+    WHEN A + B <= C OR B + C <= A OR A + C <= B THEN 'Not A Triangle'
+    WHEN A = B AND B = C THEN 'Equilateral'
+    WHEN A = B OR B = C OR A = C THEN 'Isosceles'
+    ELSE 'Scalene'
+  END AS TriangleType
+FROM TRIANGLES;
+```
 
 
 
