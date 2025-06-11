@@ -622,9 +622,37 @@ SELECT
 FROM TRIANGLES;
 ```
 
+## 37 - The Blunder
+Samantha foi encarregada de calcular a média dos salários mensais de todos os funcionários da tabela EMPLOYEES, mas só percebeu que a tecla do seu teclado estava quebrada depois de concluir o cálculo. Ela precisa da sua ajuda para encontrar a diferença entre o erro de cálculo dela (usando salários sem zeros) e o salário médio real.
 
+Escreva uma consulta calculando o valor do erro (por exemplo: real - média dos salários mensais calculados incorretamente) e arredonde para o próximo número inteiro.
 
+A tabela EMPLOYEES é descrita da seguinte forma:
+![image](https://github.com/user-attachments/assets/9f483775-881f-4bdf-9dbd-40b2371ac744)
+Observação: Salário mensal.
 
+Restrições
+1000 < Salário < 10⁵.
+
+Sample Input
+![image](https://github.com/user-attachments/assets/a69b4291-eb74-4b2b-9976-bb53a94ff784)
+
+Sample Output
+2061
+
+Explicação
+
+A tabela abaixo mostra os salários sem zeros conforme foram inseridos por Samantha:
+![image](https://github.com/user-attachments/assets/6cef0c97-bb53-4c59-9498-3ac3e491db43)
+
+Samantha calcula um salário médio de 98,00. O salário médio real é 2159,00.
+O erro resultante entre os dois cálculos é 2159,00 - 98,00 = 2061,00. Como é igual ao inteiro 2061, não é arredondado para cima.
+
+##### Resposta:
+```
+SELECT CEIL (AVG(SALARY) - AVG (REPLACE(SALARY, 0, ''))) 
+FROM EMPLOYEES
+```
 
 
 
