@@ -173,7 +173,9 @@ WHERE RIGHT (CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
 ## 13 - Weather Observation Station 8
 Consulte a lista de nomes de CIDADES de ESTAÇÃO que possuem vogais (por exemplo, a, e, i, o e u) como primeiro e último caracteres. Seu resultado não pode conter duplicatas.
+
 Input Format
+
 A tabela STATION é descrita da seguinte forma:
 
 ![image](https://github.com/user-attachments/assets/222c3e79-bf0d-4c31-a114-cd8a271d2ec2)
@@ -189,7 +191,9 @@ AND RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
 ## 14 - Weather Observation Station 9
 Consulte a lista de nomes de CIDADES de ESTAÇÃO que não começam com vogais. Seu resultado não pode conter duplicatas.
+
 Input Format
+
 A tabela STATION é descrita da seguinte forma:
 
 ![image](https://github.com/user-attachments/assets/1bcf570d-99de-4cf4-99d2-3c2aa283ad5a)
@@ -204,7 +208,9 @@ WHERE NOT LEFT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 ```
 ## 15 - Weather Observation Station 10
 Consulte a lista de nomes de CIDADES da ESTAÇÃO que não terminam com vogais. Seu resultado não pode conter duplicatas.
+
 Input Format
+
 A tabela STATION é descrita da seguinte forma:
 
 ![image](https://github.com/user-attachments/assets/fa978753-1df7-4640-9beb-2cf34b0fb41f)
@@ -220,7 +226,9 @@ WHERE NOT RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 
 ## 16 - Weather Observation Station 11
 Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais ou não terminam com vogais. Seu resultado não pode conter duplicatas.
+
 Input Format
+
 A tabela STATION é descrita da seguinte forma:
 
 ![image](https://github.com/user-attachments/assets/299b4107-6557-4cc1-8218-a341f87199a5)
@@ -237,7 +245,9 @@ OR NOT RIGHT(CITY, 1) IN ('A', 'E', 'I', 'O', 'U');
 
 ## 17 - Weather Observation Station 12
 Consulte a lista de nomes de CIDADES da ESTAÇÃO que não começam com vogais e não terminam com vogais. Seu resultado não pode conter duplicatas.
+
 Input Format
+
 A tabela STATION é descrita da seguinte forma:
 
 ![image](https://github.com/user-attachments/assets/7c6ee490-da0c-41b8-8f84-0243b85980cf)
@@ -253,9 +263,13 @@ AND RIGHT(CITY, 1) NOT IN ('A', 'E', 'I', 'O', 'U');
 ```
 ## 18 - Weather Observation Station 13 
 Consultar a soma das latitudes do norte (LAT_N) da ESTAÇÃO com valores maiores que 38.7880 e menos de 137.2145. Trunque sua resposta para 4 casas decimais.
+
 Input Format
+
 A tabela STATION é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/e8e9c6bf-1699-4de9-8151-73a4f99154cb)
+
 onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
