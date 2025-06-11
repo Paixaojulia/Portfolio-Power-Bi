@@ -507,6 +507,7 @@ Input Format
 As tabelas CITY e COUNTRY são descritas da seguinte forma:
 
 ![image](https://github.com/user-attachments/assets/8a2a4ea4-1e8e-4b49-a1fd-8f511cbe9051)
+
 ![image](https://github.com/user-attachments/assets/82279835-5115-4a3b-898b-d1d4c7fe459d)
 
 ##### Resposta:
@@ -521,7 +522,9 @@ Considerando as tabelas CITY e COUNTRY, consulte os nomes de todas as cidades cu
 Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
 Input Format
 As tabelas CITY e COUNTRY são descritas da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/0042ff99-c613-49e2-b219-98d00f9f8188)
+
 ![image](https://github.com/user-attachments/assets/5cc80786-5296-41f1-bc68-6beda523adba)
 
 ##### Resposta:
@@ -536,7 +539,9 @@ Considerando as tabelas CITY e COUNTRY, consulte os nomes de todos os continente
 Observação: CITY.CountryCode e COUNTRY.Code são colunas-chave correspondentes.
 Input Format
 As tabelas CITY e COUNTRY são descritas da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/991c0887-0538-4421-94d9-cdb02f6bbd1d)
+
 ![image](https://github.com/user-attachments/assets/459300f4-c4da-4462-9080-f54a49f0e17d)
 
 ##### Resposta:
@@ -550,16 +555,22 @@ GROUP BY COUNTRY.Continent;
 Definimos os ganhos totais de um funcionário como sendo o seu salário mensal x meses trabalhados, e os ganhos totais máximos como sendo os ganhos totais máximos de qualquer funcionário na tabela "Employee". Escreva uma consulta para encontrar os ganhos totais máximos de todos os funcionários, bem como o número total de funcionários que têm ganhos totais máximos. Em seguida, imprima esses valores como 2 inteiros separados por espaços.
 Top Earners
 A tabela Employee contendo dados de funcionários de uma empresa é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/661c4953-b99d-4047-9cbe-ac1ad05d0f6d)
+
 onde employee_id é o número de identificação do funcionário, name é o nome dele, months é o número total de meses que ele trabalha na empresa e salary é o salário mensal.
 Sample Input
+
 ![image](https://github.com/user-attachments/assets/f57ef536-41f1-4d77-8ca8-227a259ca8a4)
+
 Sample Output
 69952 1
 
 Explicação
 A tabela e os dados de ganhos são representados no diagrama a seguir:
+
 ![image](https://github.com/user-attachments/assets/324632c1-06fe-4a2c-be9d-7d4a3085c8ec)
+
 O valor máximo de ganhos é 69952. A única funcionária com ganhos = 69952 é Kimberly, então imprimimos o valor máximo de ganhos (69952) e uma contagem do número de funcionários que ganharam $ 69952 (que é 1) como dois valores separados por espaços.
 
 ##### Resposta:
@@ -579,9 +590,12 @@ Escaleno: É um triângulo com 3 lados de comprimentos diferentes.
 Não é um triângulo: Os valores fornecidos de A, B e C não formam um triângulo.
 Input Format
 A tabela TRIÂNGULOS é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/c29495a5-1238-4b97-813b-7ee6ff5f1cbc)
+
 Cada linha na tabela denota os comprimentos de cada um dos três lados de um triângulo.
 Sample Input
+
 ![image](https://github.com/user-attachments/assets/d0c7b9b1-f081-45e8-b24e-ea51aae2150c)
 
 Sample Output
