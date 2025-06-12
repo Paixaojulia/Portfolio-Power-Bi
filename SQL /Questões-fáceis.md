@@ -282,7 +282,9 @@ WHERE LAT_N > 38.7880 AND LAT_N < 137.2345
 Consultar o maior valor das latitudes do norte (LAT_N) da ESTAÇÃO que seja menor que 137.2345. Trunque sua resposta para 4 casas decimais.
 Input Format
 A tabela STATION é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/4552dfa3-bd40-4f38-9427-4514d01a50a6)
+
 onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
@@ -295,7 +297,9 @@ WHERE LAT_N < 137.2345
 Consulte a Longitude Ocidental (LONG_W) para encontrar a maior Latitude Norte (LAT_N) em STATION que seja menor que 137.2345. Arredonde sua resposta para 4 casas decimais.
 Input Format
 A tabela STATION é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/79588633-8b87-49ff-97ce-76cf3bb4aaaa)
+
 onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
@@ -310,7 +314,9 @@ DESC LIMIT 1;
 Consultar a menor latitude norte (LAT_N) da ESTAÇÃO que seja maior que 38.7780. Arredonde sua resposta para 4 casas decimais.
 Input Format
 A tabela STATION é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/d9fd75ef-6e01-4b50-817e-47f0773ea7a2)
+
 onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 
 ##### Resposta:
@@ -325,7 +331,9 @@ LIMIT 1;
 Consulte a Longitude Ocidental (LONG_W) onde a menor Latitude Norte (LAT_N) em STATION é maior que 38.7780. Arredonde sua resposta para 4 casas decimais.
 Input Format
 A tabela STATION é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/09668a62-9967-4f7c-bf12-f1b336248e46)
+
 onde LAT_N é a latitude norte e LONG_W é a longitude oeste.
 ##### Resposta:
 ```
@@ -346,6 +354,7 @@ A tabela STUDENTS é descrita da seguinte forma:
 A coluna Name contém apenas letras maiúsculas (A-Z) e minúsculas (a-z).
 
 Sample Input
+
 ![image](https://github.com/user-attachments/assets/a055ee86-b291-4d68-bb36-662b9437866b)
 
 Sample Output
@@ -373,6 +382,7 @@ A tabela Employee, que contém os dados dos funcionários de uma empresa, é des
 Onde employee_id é o número de identificação do funcionário, name é o nome dele, months é o número total de meses que ele trabalha na empresa e salary é o salário mensal.
 
 Sample Input
+
 ![image](https://github.com/user-attachments/assets/5521950d-6523-4418-a6b6-5d41ff990496)
 
 Sample Output
@@ -403,6 +413,7 @@ A tabela Employee contendo dados de funcionários de uma empresa é descrita da 
 Onde employee_id é o número de identificação do funcionário, name é o nome dele, months é o número total de meses que ele trabalha na empresa e salary é o salário mensal.
 
 Sample Input
+
 ![image](https://github.com/user-attachments/assets/d436daed-efa0-47d4-96de-f6ca483ec7f7)
 
 Sample Output
@@ -628,13 +639,16 @@ Samantha foi encarregada de calcular a média dos salários mensais de todos os 
 Escreva uma consulta calculando o valor do erro (por exemplo: real - média dos salários mensais calculados incorretamente) e arredonde para o próximo número inteiro.
 
 A tabela EMPLOYEES é descrita da seguinte forma:
+
 ![image](https://github.com/user-attachments/assets/9f483775-881f-4bdf-9dbd-40b2371ac744)
+
 Observação: Salário mensal.
 
 Restrições
 1000 < Salário < 10⁵.
 
 Sample Input
+
 ![image](https://github.com/user-attachments/assets/a69b4291-eb74-4b2b-9976-bb53a94ff784)
 
 Sample Output
@@ -643,6 +657,7 @@ Sample Output
 Explicação
 
 A tabela abaixo mostra os salários sem zeros conforme foram inseridos por Samantha:
+
 ![image](https://github.com/user-attachments/assets/6cef0c97-bb53-4c59-9498-3ac3e491db43)
 
 Samantha calcula um salário médio de 98,00. O salário médio real é 2159,00.
