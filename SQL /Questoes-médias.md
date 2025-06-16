@@ -13,6 +13,8 @@ Query the Manhattan Distance between points P1 and P2 and round it to a scale of
 Input Format
 
 The STATION table is described as follows:
+ 
+![image](https://i.postimg.cc/PxKBwNSY/imagem-2025-06-16-190640207.png)
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
