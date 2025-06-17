@@ -48,6 +48,38 @@ SELECT ROUND(  SQRT(
 )
 FROM STATION;
 ```
+## 3 - Binary Tree Nodes
+
+Write a query to find the node type of Binary Tree ordered by the value of the node. Output one of the following for each node:
+
+Root: If node is root node.
+Leaf: If node is leaf node.
+Inner: If node is neither root nor leaf node.
+Sample Input
+
+![image](https://github.com/user-attachments/assets/54b6c477-0458-470e-ad49-b7b3ea4fec66)
+
+Sample Output
+
+1 Leaf
+2 Inner
+3 Leaf
+5 Root
+6 Leaf
+8 Inner
+9 Leaf
+
+Explanation
+
+The Binary Tree below illustrates the sample:
+
+![image](https://github.com/user-attachments/assets/cad7a05c-07dd-49b5-86ec-c1b7804c4f93)
+
+##### Resposta: 
+```
+
+
+
 
 
 
