@@ -18,7 +18,7 @@ The STATION table is described as follows:
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
-##### Resposta: 
+##### Answer: 
 ```
 SELECT ROUND(ABS(MIN(LAT_N) - MAX(LAT_N)) + ABS(MIN(LONG_W) - MAX(LONG_W)), 4)
 FROM STATION;
@@ -38,7 +38,7 @@ The STATION table is described as follows:
 
 where LAT_N is the northern latitude and LONG_W is the western longitude.
 
-##### Resposta: 
+##### Answer: 
 ```
 SELECT ROUND(  SQRT(
     POWER(MIN(LAT_N) - MAX(LAT_N), 2) + 
@@ -75,7 +75,7 @@ The Binary Tree below illustrates the sample:
 
 ![image](https://github.com/user-attachments/assets/cad7a05c-07dd-49b5-86ec-c1b7804c4f93)
 
-##### Resposta: 
+##### Answer: 
 ```
 
 
